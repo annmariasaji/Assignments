@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Title of the page</title>
+</head>
+<body>
+   <h1>LOGIN FORM</h1>
+	<label for="Name">Name:</label>
+  <input type="text" id="name" name="Nname"><br><br>
+<p>
+	<label for="age">Age:</label>
+  <select name="age" id="age">
+    <option value="1-10">1-10</option>
+    <option value="10-20">10-20</option>
+    <option value="20-30">20-30</option>
+    <option value="30-40">30-40</option>
+  </select>
+</p>
+<label for ="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="female" checked>
+<label for="female">female</label><br>
+<input type="radio" id="gender" name="gender" value="male">
+<label for="adult">male</label>
+<p>
+<p>FOOD TYPE:</p>
+ <input type="checkbox" id="foodtype" name="food1" value="veg">
+  <label for="food1"> Vegeterian</label><br>
+  <input type="checkbox" id="foodtype" name="food2" value="nonveg">
+  <label for="vehicle2">Non-Vegeterian</label><br><br>
+  </p>
+  <p>
+   <form name="Month">
+      <label for="Dob">Date of Birth:</label>
+      <input type="month" name="Dob">
+   </form>
+</p>
+</body>
+</html>
